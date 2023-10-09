@@ -11,7 +11,7 @@ body, ul, li {
 
     /* Basic styles for the top menu */
     .top-menu {
-        background-color: #333;
+        background-color: #5b5b5b;
         color: #fff;
         padding: 10px 0;
         text-align: center;
@@ -38,11 +38,11 @@ body, ul, li {
     }
 
     .top-menu a:hover{
-        color: cyan;
+        color: pink;
     }
 
     .pancake-display-none {
-        background-color: #333;
+        background-color: #5b5b5b;
         color: #fff;
         padding: 10px 0;
         text-align: center;
@@ -70,15 +70,10 @@ body, ul, li {
     }
 
     .pancake-display-none a:hover{
-        color: cyan;
+        color: pink;
     }
 
-    .menu-buttons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+
 
     .pancake-menu-exit{
         display: none;
@@ -100,6 +95,10 @@ body, ul, li {
         .big-menu{
             display: flex;
         }
+        .menu-buttons {
+            display: none;
+        
+        }
 
     
     }
@@ -111,6 +110,12 @@ body, ul, li {
 
     /* Media query to show the pancake menu when the screen size is reduced */
     @media screen and (max-width: 768px) {
+        .menu-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
         .top-menu ul {
             flex-direction: column;
             align-items: center;
