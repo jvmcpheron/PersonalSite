@@ -164,6 +164,7 @@ body, ul, li {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        color: #5b5b5b;
     }
     .janedesc{
         margin-top: 50px;
