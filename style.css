@@ -5,77 +5,133 @@ body, ul, li {
     list-style: none;
 }
 
-/* Basic styles for the top menu */
-.top-menu {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
 
-.top-menu ul {
-    display: flex;
-    justify-content: center;
-}
 
-.big-menu{
-    display: flex;
-    justify-content: center;
-}
+/* TOP MENU STYLING */
 
-.top-menu li {
-    margin: 0 20px;
-}
-
-.top-menu a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.top-menu a:hover{
-    color: orange;
-}
-
-.display-none{
-    display: none;
-}
-
-@media screen and (min-width: 769px){
-    .pancake-menu-toggle {
-        display: none;
+    /* Basic styles for the top menu */
+    .top-menu {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
     }
+
+    .top-menu ul {
+        display: flex;
+        justify-content: center;
+    }
+
     .big-menu{
         display: flex;
-    }
-}
-
-/* Styles for the pancake menu (hidden by default) */
-/* .pancake-menu {
-    display: none;
-} */
-
-/* Media query to show the pancake menu when the screen size is reduced */
-@media screen and (max-width: 768px) {
-    .top-menu ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .big-menu{
-        display: none;
+        justify-content: center;
     }
 
     .top-menu li {
-        margin: 10px 0;
+        margin: 0 20px;
     }
 
-    .pancake-menu-toggle {
-        display: block;
+    .top-menu a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .top-menu a:hover{
+        color: cyan;
+    }
+
+    .pancake-display-none {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .pancake-display-none ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pancake-display-none{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pancake-display-none li {
+        margin: 0 20px;
+    }
+
+    .pancake-display-none a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .pancake-display-none a:hover{
+        color: cyan;
+    }
+
+    .menu-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pancake-menu-exit{
+        display: none;
+        justify-content: center;
+        text-align: center;
+    }
+    .pancake-menu-exit:hover{
         cursor: pointer;
     }
 
-    .pancake-menu {
-        display: block;
+
+    @media screen and (min-width: 769px){
+        .pancake-display-none{
+            display: none;
+        }
+        .pancake-menu-toggle {
+            display: none;
+        }
+        .big-menu{
+            display: flex;
+        }
+
+    
     }
-}
+
+    /* Styles for the pancake menu (hidden by default) */
+    /* .pancake-menu {
+        display: none;
+    } */
+
+    /* Media query to show the pancake menu when the screen size is reduced */
+    @media screen and (max-width: 768px) {
+        .top-menu ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .big-menu{
+            display: none;
+        }
+
+        .top-menu li {
+            margin: 10px 0;
+        }
+
+        .pancake-menu-toggle {
+            display: block;
+            cursor: pointer;
+        }
+
+        .pancake-menu {
+            display: block;
+        }
+    }
+
+
