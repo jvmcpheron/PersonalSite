@@ -3,6 +3,7 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #5b5b5b;
 }
 
 
@@ -15,6 +16,7 @@ body, ul, li {
         color: #fff;
         padding: 10px 0;
         text-align: center;
+        box-shadow: 0 0 10px rgba(66, 57, 66, 0.5); /* Apply the shadow */
     }
 
     .top-menu ul {
@@ -24,17 +26,18 @@ body, ul, li {
 
     .big-menu{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .top-menu li {
-        margin: 0 20px;
+        margin: 0 20%;
     }
 
     .top-menu a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
+        
     }
 
     .top-menu a:hover{
@@ -73,9 +76,13 @@ body, ul, li {
         color: pink;
     }
 
-
+    .pancake-menu-toggle{
+        font-size: 25px;
+    }
 
     .pancake-menu-exit{
+        font-size: 20px;
+        margin-top: 5px;
         display: none;
         justify-content: center;
         text-align: center;
@@ -123,6 +130,7 @@ body, ul, li {
 
         .big-menu{
             display: none;
+            
         }
 
         .top-menu li {
@@ -136,12 +144,13 @@ body, ul, li {
 
         .pancake-menu {
             display: block;
+            
         }
 
         .pancake-display-none li{
             margin-top: 10px;
             margin-bottom: 10px;
-            
+
             width: 100%;
         }
     }
@@ -161,23 +170,33 @@ body, ul, li {
     .circular-container{
         overflow: hidden;
         border-radius: 50%; /* This makes the container circular */
-        margin-top: 50px;
+        margin-top: 60px;
         margin-bottom: 50px;
         margin-left: 20px;
         margin-right: 20px;
         width:350px;
+        box-shadow: 0 0 10px rgba(66, 57, 66, 0.5); /* Apply the shadow */
     }
     .profile{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         color: #5b5b5b;
+        padding-bottom: 20px;
+
+
+        box-shadow: 0 0 10px rgba(66, 57, 66, 0.5); /* Apply the shadow */
     }
     .janedesc{
         margin-top: 50px;
         margin-left: 20px;
         margin-right: 20px;
         width: 40%;
+    }
+    .about-me{
+        color: #5b5b5b;
+        margin-bottom: 50px;
+
     }
 
     @media screen and (max-width: 649px){
@@ -195,3 +214,25 @@ body, ul, li {
     }
 
 
+
+.edu-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.short-text{
+    width:300px;
+}
+
+
+
+
+
+
+.siteName{
+    display: flex;
+    justify-content: center;
+}
