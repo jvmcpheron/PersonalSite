@@ -12,7 +12,7 @@ body, ul, li {
 
     /* Basic styles for the top menu */
     .top-menu {
-        background-color: #5b5b5b;
+        background-color: #371f1f;
         color: #fff;
         padding: 10px 0;
         text-align: center;
@@ -41,11 +41,11 @@ body, ul, li {
     }
 
     .top-menu a:hover{
-        color: rgb(255, 222, 227);
+        color: rgb(255, 207, 105);
     }
 
     .pancake-display-none {
-        background-color: #5b5b5b;
+        background-color: #371f1f;
         color: #fff;
         padding: 10px 0;
         text-align: center;
@@ -73,7 +73,7 @@ body, ul, li {
     }
 
     .pancake-display-none a:hover{
-        color: pink;
+        color: rgb(255, 207, 105);
     }
 
     .pancake-menu-toggle{
