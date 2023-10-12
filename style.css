@@ -165,6 +165,7 @@ body, ul, li {
         height: 100%;
         object-fit: cover;
         border-radius: 50%; /* This makes the image circular within the container */
+
     }
 
     .circular-container{
@@ -175,7 +176,6 @@ body, ul, li {
         margin-left: 20px;
         margin-right: 20px;
         width:350px;
-        box-shadow: 0 0 10px rgba(66, 57, 66, 0.5); /* Apply the shadow */
     }
     .profile{
         display: flex;
