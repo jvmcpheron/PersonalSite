@@ -137,6 +137,13 @@ body, ul, li {
         .pancake-menu {
             display: block;
         }
+
+        .pancake-display-none li{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            width: 100%;
+        }
     }
     
 
