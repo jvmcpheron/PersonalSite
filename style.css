@@ -117,6 +117,10 @@ body, ul, li {
 
     /* Media query to show the pancake menu when the screen size is reduced */
     @media screen and (max-width: 649px) {
+        .janedesc{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
         .menu-buttons {
             display: flex;
             justify-content: center;
@@ -159,6 +163,11 @@ body, ul, li {
 
 /* PFP STYLING */
 
+    .right-col{
+        display:flex;
+        justify-content: center;
+    }
+
     /* Apply a circular mask to the image */
     .circular-image {
         width: 100%;
@@ -173,8 +182,8 @@ body, ul, li {
         border-radius: 50%; /* This makes the container circular */
         margin-top: 60px;
         margin-bottom: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
         width:350px;
     }
     .profile{
@@ -189,9 +198,7 @@ body, ul, li {
     }
     .janedesc{
         margin-top: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 40%;
+        width: 50%;
     }
     .about-me{
         color: #5b5b5b;
