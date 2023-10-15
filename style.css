@@ -243,3 +243,16 @@ body, ul, li {
     display: flex;
     justify-content: center;
 }
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+
+h4{
+    font-style: italic;
+    margin:0px;
+    padding-top: 0px;
+}
