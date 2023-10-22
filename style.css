@@ -40,6 +40,10 @@ body, ul, li {
         
     }
 
+    a{
+        text-decoration: none;
+    }
+
     .top-menu a:hover{
         color: rgb(255, 207, 105);
     }
@@ -220,7 +224,9 @@ body, ul, li {
 
     }
 
-
+.current-page{
+    color:rgb(255, 207, 105)!important;
+}
 
 .edu-container{
     display: flex;
@@ -268,25 +274,35 @@ h4{
 }
 
 .project-container{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
 }
 
+.no-margin{
+    margin: 0 !important;
+}
+
 .project-card{
     border-radius: 15px 15px 15px 15px; 
     width: 325px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
     box-shadow: 0 0 10px rgba(66, 57, 66, 0.5);
     padding-bottom: 20px;
     margin-bottom: 20px;
+    opacity: .7;
+    height:400px;
+}
+.project-card:hover{
+    opacity: 1;
 }
 
 .card-text{
+    color: #5b5b5b;
     margin-left: 20px;
     margin-right:20px;
 }
