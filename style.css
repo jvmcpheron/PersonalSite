@@ -293,9 +293,11 @@ h4{
     flex-wrap: wrap;
     box-shadow: 0 0 10px rgba(66, 57, 66, 0.5);
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     opacity: .7;
     height:400px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .project-card:hover{
     opacity: 1;
