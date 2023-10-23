@@ -100,6 +100,26 @@ a{
 
 
     @media screen and (min-width: 650px){
+
+        .profile-small{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: #5b5b5b;
+            padding-bottom: 0px;
+            align-items: center;
+    
+    
+        }
+    .circular-container-small{
+        overflow: hidden;
+        border-radius: 50%; /* This makes the container circular */
+        margin-top: 60px;
+        margin-bottom: 50px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        width:100px;
+    }
         .pancake-display-none{
             display: none;
         }
@@ -124,6 +144,31 @@ a{
 
     /* Media query to show the pancake menu when the screen size is reduced */
     @media screen and (max-width: 649px) {
+        .profile-small{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: #5b5b5b;
+            padding-bottom: 0px;
+            align-items: center;
+            font-size: 20px;
+    
+    
+        }
+        .profile-small h1{
+            font-size: 30px;
+        }
+
+        .circular-container-small{
+            overflow: hidden;
+            border-radius: 50%; /* This makes the container circular */
+            margin-top: 60px;
+            margin-bottom: 50px;
+            /* margin-left: 20px;
+            margin-right: 20px; */
+            width:50px;
+        }
+
         .janedesc{
             margin-left: 20px;
             margin-right: 20px;
@@ -194,15 +239,6 @@ a{
         width:350px;
     }
 
-    .circular-container-small{
-        overflow: hidden;
-        border-radius: 50%; /* This makes the container circular */
-        margin-top: 60px;
-        margin-bottom: 50px;
-        /* margin-left: 20px;
-        margin-right: 20px; */
-        width:100px;
-    }
     .profile{
         display: flex;
         flex-wrap: wrap;
@@ -213,16 +249,7 @@ a{
 
         box-shadow: 0 0 10px rgba(66, 57, 66, 0.5); /* Apply the shadow */
     }
-    .profile-small{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        color: #5b5b5b;
-        padding-bottom: 0px;
-        align-items: center;
 
-
-    }
     
     .janedesc{
         margin-top: 50px;
@@ -313,6 +340,9 @@ h4{
 .project-container{
     margin-top: 10px;
     margin-bottom: 100px;
+    padding-left: 70px;
+    padding-right:70px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -333,8 +363,8 @@ h4{
     margin-bottom: 30px;
     opacity: .7;
     height:400px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .project-card:hover{
     opacity: 1;
@@ -347,3 +377,53 @@ h4{
 }
 
 
+/* CONTACT */
+.contact-container {
+    background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: #333;
+}
+
+.contact-container form {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.contact-container label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #555;
+}
