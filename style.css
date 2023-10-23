@@ -412,6 +412,13 @@ h4{
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    resize: none;
+    font-size: 15px;
+}
+
+textarea{
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 .contact-container input[type="submit"] {
